@@ -2,19 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Have An Adventure!</title>
+    <title>Rafting Website</title>
     <meta name="description" content="Grace Aigbomian Rafting Website page">
     <meta name="author" content="Grace Aigbomian">   
 </head>
 <body>
     <header>
             <nav>
-                <a href="#">Home</a>
+                <a href="wrr/Home">Home</a>
                 <a href="wwr/AboutUs">About Us</a>
                 <a href="wwr/Trips">Trips</a>
                 <a href="wrr/ContactUs">Contact Us</a>
             </nav>
-            <img src="images/therapidssplash.jpg"
+            <img src="images/therapidssplash.jpg">
         </header>
 </body>
 </html>
