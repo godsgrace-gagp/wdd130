@@ -62,13 +62,14 @@ footer {
     text-align: center;
 }
 
-/* class selector */
+/* Class Selectors */
 .box {
 margin: 1rem;
 border: 1px solid rgb(0 0 0 / 10%);
 padding: 1rem;
 background-color: #ddd;
 color: #000;
+
 }
 .indent{
     padding-left: 2rem;
