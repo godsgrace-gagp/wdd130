@@ -1,15 +1,15 @@
-/* class selectors */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 nav { 
-    background-color: steelblue;
+    background-color: rgb(70, 180, 127);
     padding: 10px;
 }
 nav a {
     color: white;
     padding: 10px;
     display: block;
+}
+body {
+  background-image: url('images\profile.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
