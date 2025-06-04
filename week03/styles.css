@@ -1,0 +1,74 @@
+body { 
+    font-family: Roboto, Alumni Sans SC; 
+    margin: 1rem; background: #577399; 
+}
+header {
+     background: #fff; 
+     padding: 1rem 0; 
+     text-align: center;
+ }
+nav a {
+     margin: 0 1rem; 
+     text-decoration: none; 
+     color: #333; 
+     
+    }
+.scroller {
+     background: #eee; 
+     padding: 2rem 0; 
+     text-align: center; 
+    }
+.scroller img {
+     width: 200px;
+     height: 120px; 
+     object-fit: cover; 
+     margin: 0 10px; 
+     border-radius: 8px; 
+    }
+.gallery { display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem; 
+    padding: 2rem 0; 
+}
+.product {
+     background: #fff; 
+     border-radius: 8px; 
+     box-shadow: 0 2px 8px #0001; 
+     width: 200px; 
+     text-align: center; 
+     transition: box-shadow 0.3s; 
+}
+.product:hover {
+    box-shadow: 0 4px 16px #0002; 
+}
+.product img {
+     width: 100%; 
+     height: 120px; 
+     object-fit: cover; 
+     border-radius: 8px 8px 0 0; 
+}
+.product-title {
+     font-weight: bold; 
+     margin: 1rem 0 0.5rem; 
+}
+.product-desc {
+     font-size: 0.95rem; 
+     color: #555; 
+     margin-bottom: 1rem; 
+}
+footer { 
+     background: #222; 
+     color: #fff; 
+     text-align: center; 
+     padding: 1.5rem 0; 
+     margin-top: 2rem; 
+}
+.footer-links {
+     margin-top: 0.5rem; 
+}
+.footer-links a {
+     color: #fff; 
+     margin: 0 0.5rem; 
+     text-decoration: none; 
+    }
