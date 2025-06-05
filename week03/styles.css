@@ -3,10 +3,21 @@ body {
     margin: 1rem; background: #577399; 
 }
 header {
-     background: #fff; 
-     padding: 1rem 0; 
-     text-align: center;
- }
+    background: #fff;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin-left: 5rem;
+}
+
+nav {
+    margin-right: 8rem;
+}
+ 
 nav a {
      margin: 0 1rem; 
      text-decoration: none; 
@@ -18,13 +29,40 @@ nav a {
      padding: 2rem 0; 
      text-align: center; 
     }
+.scroller div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+}
 .scroller img {
-     width: 200px;
-     height: 120px; 
-     object-fit: cover; 
-     margin: 0 10px; 
-     border-radius: 8px; 
-    }
+    flex: 0 0 auto;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    transition: transform 0.2s;
+}
+.book-btn {
+    background: #A30000;      /* Button background color */
+    color: #fff;              /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;   /* Button size: top/bottom, left/right */
+    font-size: 1.1rem;        /* Button text size */
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.2s;
+}
+.book-btn:hover {
+    background: #c0392b;      /* Button color on hover */
+}
 .gallery { display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
