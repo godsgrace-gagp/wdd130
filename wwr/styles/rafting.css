@@ -32,16 +32,11 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
-nav, p, section, article{
-    margin: 0%;
-    padding: 16px;
-    font-family: var(--body-font);
-}
 .socialmedia a {
     text-decoration: none;
 }
 .hero {
-     position: relative;
+    position: relative;
 }
 .hero img {
     display: block;
@@ -54,37 +49,44 @@ nav, p, section, article{
 h1 {
     position: absolute;
     top: 30px;
-    width: 100%;
+    width: 80%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: var(--accent1-color);
-    color:#ffffff;
+    color: #fff;
+    
 }
 .hero article img {
-    position: absolute;
+    width: 125px;
     float: right;
-    top: 5px;
-    right: 3px;
-    width: 200px;
-     z-index: 10;
-}    
+
+}
 .hero article p {
-    top: 200px;
-    width: 700px;
-    padding: 16px;
-    text-align: left;
-    color:#ffffff;
+    color: #fff;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    background: none;
+    width: 100%;
+    font-size: 1rem;
+    opacity: 1;
 }
 .hero article {
     position: absolute;
-    top: 200px;
-    left: 30px;
-    right: 30px;
-    width: 90%;
-    padding: 16px;
-    opacity: 0.8;
+    top: 120px;
+    right: 40px;
+    width: 320px;
     background-color: var(--secondary-color);
+    color: #fff;
+    opacity: 0.92;
+    padding: 20px 24px;
+    border-radius: 10px;
+    z-index: 20;
+    box-shadow: 0 4px 16px #0002;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 figure {
     top: 30px;
