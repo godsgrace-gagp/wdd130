@@ -9,6 +9,10 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+main {
+    max-width: 840px;
+     margin: 0 auto;
+}
 
 header img {
     margin-left: 5rem;
