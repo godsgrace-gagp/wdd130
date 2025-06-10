@@ -204,7 +204,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 16px;
-     align-items: center;
+    align-items: center;
 }
 
 .socialmedia a img {
