@@ -224,7 +224,6 @@ footer {
 }
 
 /* contact us page css */
-
 .contact-info {
   background: #fff;
   border-radius: 8px;
@@ -248,8 +247,7 @@ footer {
 }
 .contact-info p {
   margin: 0;
-  text-align: left;
-  
+  text-align:left;
 }
 
 .contact-info .map-container iframe {
@@ -265,6 +263,7 @@ footer {
   align-items: flex-start;
   margin: 0;
   padding: 0;
+  margin-top: -60px;
 }
 
 .map-container iframe {
@@ -281,6 +280,7 @@ footer {
 .map-container iframe:focus {
   box-shadow: 0 4px 16px rgba(0,123,255,0.18);
 }
+
 .employee-profiles {
   background: #fff;
   border-radius: 8px;
@@ -440,4 +440,5 @@ footer {
    main {
     padding: 0 0.5rem;
   }
+  
 }
