@@ -454,3 +454,166 @@ footer {
   }
   
 }
+/* HOME page CSS */
+.home-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.home-hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.home-hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgba(10,34,57,0.7);
+    padding: 1.5rem 2.5rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Alumni Sans SC', sans-serif;
+    letter-spacing: 2px;
+}
+.home-newsletter {
+    background: #e3eaf2;
+    padding: 2rem;
+    text-align: center;
+}
+.home-newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.home-newsletter input {
+    padding: 0.7rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.home-newsletter button {
+    padding: 0.7rem 2rem;
+    background: #0a2239;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+.cta-button {
+    background: #1e81b0;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.cta-button:hover {
+    background: #16658a;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background: #fff;
+}
+.grid-item {
+    background: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+    text-align: center;
+}
+.grid-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+/* Trips page css */
+.page-title {
+    padding: 2rem 1rem;
+    margin: 0 auto auto auto;
+    position: static;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Alumni Sans SC', sans-serif;
+    letter-spacing: 2px;
+}
+.trips-cta {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.trips-cta .cta-button {
+    background: #1e81b0;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+}
+.trips-cta .cta-button:hover {
+    background: #16658a;
+}
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background: #fff;
+}
+.trip-card {
+    background: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+    text-align: center;
+}
+.trip-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.trips-table-section {
+    padding: 2rem;
+    background: #e3eaf2;
+}
+.table-container {
+    overflow-x: auto;
+}
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+}
+.trips-table th, .trips-table td {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    text-align: left;
+}
+.trips-table th {
+    background: #1e81b0;
+    color: #fff;
+}
